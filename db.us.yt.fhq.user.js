@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     YouTube Highest Quality
-// @version  1
+// @version  1.1
 // @grant    none
 // @match    http*://*.youtube.com/*
 // @desc     A simple script to try and force the highest quality on the youtube video player.
