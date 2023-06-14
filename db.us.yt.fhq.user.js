@@ -3,12 +3,13 @@
 // @version  1
 // @grant    none
 // @match    http*://*.youtube.com/*
+// @desc     A simple script to try and force the highest quality on the youtube video player.
 // ==/UserScript==
 
 function setQuality() {
     var player = document.querySelector('#movie_player');
     if (player && 'setPlaybackQualityRange' in player) {
-        player.setPlaybackQualityRange('hd2160', 'hd2160');
+        player.setPlaybackQualityRange('hd1080', 'hd2160');
     }
 }
 
